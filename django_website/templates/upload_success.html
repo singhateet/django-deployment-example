@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload success</title>
+</head>
+<body>
+    <h1>File Uploaded Successfully!</h1>
+    <table>
+    <tr>
+        <td>File Name:</td>
+        <td>{{ file_name }}</td>
+    </tr>
+    <tr>
+        <td>File Size:</td>
+        <td>{{ file_size }}</td>
+    </tr>
+    </table>
+    <a href="{{ file_url }}" download>Download File</a>
+
+</body>
+</html>
